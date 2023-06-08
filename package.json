@@ -1,0 +1,27 @@
+{
+  "name": "samito-angular-theme-vscode",
+  "displayName": "samito-angular-theme-vscode",
+  "description": "samito-angular-theme-vscode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "samito-angular-theme-vscode",
+        "uiTheme": "vs-dark",
+        "path": "./themes/samito-angular-theme-vscode-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icons/angular-icon.png",
+  "repository": {
+    "url": "https://github.com/SamitoX4/samito-angular-theme-vscode.git",
+    "type": "git"
+  },
+  "publisher": "samito-themes"
+}
